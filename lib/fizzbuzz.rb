@@ -1,6 +1,5 @@
 class Fizzbuzz
-	#attr_reader :print_numbers, :test_for_fizz_and_buzz
-
+	
 	def print_numbers
 		(1..100).each do |x|
 			puts test_for_fizz_and_buzz(x)
@@ -19,5 +18,3 @@ class Fizzbuzz
 		end
 	end
 end
-
-
